@@ -13,3 +13,7 @@ body{
 .Encabezado img{
     margin-right: 0px;
 }
+
+a{
+    text-decoration: none;
+}
