@@ -1,7 +1,4 @@
-.Elementos{
-    
-}
-
 .Encabezado{
     display: flex;
+    justify-content: space-between;
 }
