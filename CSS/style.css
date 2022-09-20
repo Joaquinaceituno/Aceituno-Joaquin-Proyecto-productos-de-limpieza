@@ -9,3 +9,7 @@ body{
     align-items: center;
     padding: 10px;
 }
+
+.Encabezado img{
+    margin-right: 10px;
+}
