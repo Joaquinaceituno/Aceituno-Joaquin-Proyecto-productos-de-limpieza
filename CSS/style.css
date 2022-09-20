@@ -22,3 +22,7 @@ a{
 .Elementos {
     padding-right: 10px;
 }
+
+.Elementos:hover{
+    color: white;
+}
