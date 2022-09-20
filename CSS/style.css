@@ -7,4 +7,5 @@ body{
     justify-content: space-between;
     background-color: yellow;
     align-items: center;
+    padding: 10px;
 }
