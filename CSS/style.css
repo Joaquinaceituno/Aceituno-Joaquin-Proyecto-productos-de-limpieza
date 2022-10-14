@@ -16,6 +16,9 @@ a {
 ul{
     list-style: none;
 }
+ ul li {
+    display: inline-block;
+ }
 
 
 
