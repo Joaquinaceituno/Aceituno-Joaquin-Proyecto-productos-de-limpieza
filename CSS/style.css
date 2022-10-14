@@ -8,6 +8,8 @@
 }
 h1{
     margin: 40px;
+    
+    
 }
 
 a {
@@ -21,6 +23,7 @@ a {
 }
  .Elementos ul li {
     display: inline-block;
+    align-items: center;
  }
 
 
