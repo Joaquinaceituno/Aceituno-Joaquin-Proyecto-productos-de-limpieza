@@ -6,6 +6,9 @@
     padding: 10px;
 
 }
+h1{
+    margin: 40px;
+}
 
 a {
     text-decoration: none;
@@ -13,10 +16,10 @@ a {
     color: black;
 }
 
-ul{
+.Elementos ul{
     list-style: none;
 }
- ul li {
+ .Elementos ul li {
     display: inline-block;
  }
 
