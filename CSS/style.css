@@ -35,7 +35,7 @@ body{
     background-color: yellow;
 }
 
-<<<<<<< HEAD
+
 
 nav{
     display: flex;
@@ -45,21 +45,16 @@ nav{
    
 }
 
-  
 
 
-
-=======
-  
-
->>>>>>> 7be9566c4b0f93d1b8372efc5c131a4c30af8af5
 /*Aqui se tendra al formulario de la cuenta*/
 
 .form-registro{
     width: 400px;
-    background-color: red;
+    background-color: rgb(13, 127, 119);
     padding: 30px;
     margin:auto;
+    border-radius: 15px;
 }
 
 
