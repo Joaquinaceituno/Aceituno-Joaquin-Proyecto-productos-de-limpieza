@@ -4,7 +4,7 @@
     background-color: aquamarine;
     align-items:center ;
     padding: 10px;
-
+    text-align: center;
 }
 h1{
     margin-right: 50px;
@@ -35,3 +35,6 @@ body{
     font-family: 'Times New Roman', Times, serif;
     background-color: yellow;
 }
+
+
+/*Aqui se tendra al formulario de la cuenta*/
