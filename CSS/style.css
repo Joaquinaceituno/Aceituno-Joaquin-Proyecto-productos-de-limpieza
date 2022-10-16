@@ -34,3 +34,8 @@ a {
 body{
     font-family: 'Times New Roman', Times, serif;
 }  
+nav{
+    display: flex;
+  
+
+}
