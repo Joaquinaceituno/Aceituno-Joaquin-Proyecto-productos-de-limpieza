@@ -33,8 +33,17 @@ a {
 
 body{
     font-family: 'Times New Roman', Times, serif;
+<<<<<<< HEAD
     background-color: yellow;
 }
 
 
 /*Aqui se tendra al formulario de la cuenta*/
+=======
+}  
+nav{
+    display: flex;
+  
+
+}
+>>>>>>> 56df683963e81be2913983e5180692037eed9f98
