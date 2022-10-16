@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .Encabezado{
     display: flex;
     justify-content: space-between;
@@ -36,12 +35,9 @@ body{
 
     background-color: yellow;
 }
-<<<<<<< HEAD
 
 
 
-=======
->>>>>>> 213ba1e5b3d62e9f55cf13018de4cd94b669d347
 nav{
     display: flex;
 
@@ -49,12 +45,9 @@ nav{
     
    
 }
-<<<<<<< HEAD
 
 
 
-=======
->>>>>>> 213ba1e5b3d62e9f55cf13018de4cd94b669d347
 /*Aqui se tendra al formulario de la cuenta*/
 
 .form-registro{
@@ -67,6 +60,4 @@ nav{
 
 
 
-=======
->>>>>>> develop
 
