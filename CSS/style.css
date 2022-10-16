@@ -23,7 +23,8 @@ a {
  .Elementos ul li {
     display: inline-block;
     align-items: center;
-   margin-top: 50px;
+    margin-top: 6px;
+  
  }
 .barralateral{
     text-align: center; 
@@ -34,9 +35,6 @@ body{
 
     background-color: yellow;
 }
-
-  
-
 /*Aqui se tendra al formulario de la cuenta*/
 
 .form-registro{
@@ -45,5 +43,7 @@ body{
     padding: 30px;
     margin:auto;
 }
+
+
 
 
