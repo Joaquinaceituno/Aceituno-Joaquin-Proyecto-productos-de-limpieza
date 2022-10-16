@@ -20,13 +20,8 @@ a {
 .elementos ul{
     list-style: none;
 }
-<<<<<<< HEAD
  .elementos ul li {
     display: inline-block;
-=======
- .Elementos ul li {
-    
->>>>>>> ef7aeb6338fda13916e6361b867f1e82cbe7add2
     align-items: center;
     margin-top: 6px;
   
@@ -43,11 +38,8 @@ body{
 
 
 
-<<<<<<< HEAD
 
 
-=======
->>>>>>> ae3276006e5fe5905bf1bc0dd0eab458cba79b00
 nav{
  
     text-align: center;
