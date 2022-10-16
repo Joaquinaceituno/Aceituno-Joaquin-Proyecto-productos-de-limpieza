@@ -46,4 +46,9 @@ nav{
 
 /*Aqui se tendra al formulario de la cuenta*/
 
+.form-registro{
+    width: 400px;
+    background-color: red;
+    padding: 30px;
+}
 
