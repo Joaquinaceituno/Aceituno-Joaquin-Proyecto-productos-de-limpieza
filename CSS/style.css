@@ -4,7 +4,7 @@
     background-color: aquamarine;
     align-items:center ;
     padding: 10px;
-
+    text-align: center;
 }
 h1{
     margin-right: 50px;
@@ -36,10 +36,29 @@ a {
 
 body{
     font-family: 'Times New Roman', Times, serif;
-}  
+
+    background-color: yellow;
+}
+
+
 nav{
     display: flex;
+<<<<<<< HEAD
     text-align: center;
     
    
 }
+=======
+  
+
+}
+
+/*Aqui se tendra al formulario de la cuenta*/
+
+.form-registro{
+    width: 400px;
+    background-color: red;
+    padding: 30px;
+}
+
+>>>>>>> 322ac01fbd432859a79ad66e95bc636df2de018e
