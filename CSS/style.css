@@ -43,15 +43,15 @@ body{
 
 nav{
     display: flex;
-<<<<<<< HEAD
+
     text-align: center;
     
    
 }
-=======
+
   
 
-}
+
 
 /*Aqui se tendra al formulario de la cuenta*/
 
@@ -62,4 +62,4 @@ nav{
     margin:auto;
 }
 
->>>>>>> 322ac01fbd432859a79ad66e95bc636df2de018e
+
