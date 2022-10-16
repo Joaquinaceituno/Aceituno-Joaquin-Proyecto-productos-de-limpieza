@@ -28,7 +28,10 @@ a {
     display: inline-block;
     align-items: center;
  }
-
+.barralateral{
+    text-align: center;
+    
+}
 
 
 body{
@@ -36,6 +39,7 @@ body{
 }  
 nav{
     display: flex;
-  
-
+    text-align: center;
+    
+   
 }
