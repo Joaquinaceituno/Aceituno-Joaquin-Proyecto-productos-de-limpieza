@@ -50,10 +50,11 @@ nav{
 
 .form-registro{
     width: 400px;
-    background-color: rgb(17, 25, 142);
+    background-color: rgb(32, 41, 162);
     padding: 30px;
     margin:auto;
     border-radius: 25px;
+    
 }
 input{
     margin: auto;
