@@ -17,11 +17,11 @@ a {
     padding-right: 10px;
     color: black;
 }
-.Elementos ul{
+.elementos ul{
     list-style: none;
 }
- .Elementos ul li {
-    
+ .elementos ul li {
+    display: inline-block;
     align-items: center;
     margin-top: 6px;
   
@@ -35,6 +35,7 @@ body{
 
     background-color: yellow;
 }
+
 
 nav{
  
