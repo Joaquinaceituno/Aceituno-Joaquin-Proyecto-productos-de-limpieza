@@ -35,18 +35,28 @@ body{
 
     background-color: yellow;
 }
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 1b6550ef7f7aef166b36638d37d4f59f07b3f678
 nav{
  
     text-align: center;
 }
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 1b6550ef7f7aef166b36638d37d4f59f07b3f678
 /*Aqui se tendra al formulario de la cuenta*/
 
 .form-registro{
     width: 400px;
-    background-color: rgb(13, 127, 119);
+    background-color: rgb(17, 25, 142);
     padding: 30px;
     margin:auto;
-    border-radius: 15px;
+    border-radius: 25px;
 }
 input{
     margin: auto;
