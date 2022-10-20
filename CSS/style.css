@@ -36,18 +36,10 @@ body{
     background-color: yellow;
 }
 
-
-
-<<<<<<< HEAD
-
-
-=======
->>>>>>> ae3276006e5fe5905bf1bc0dd0eab458cba79b00
 nav{
  
     text-align: center;
 }
-
 
 
 /*Aqui se tendra al formulario de la cuenta*/
@@ -57,7 +49,7 @@ nav{
     background-color: rgb(13, 127, 119);
     padding: 30px;
     margin:auto;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 
