@@ -10,6 +10,7 @@
 .buscador{
     display: flex;
    justify-content: space-around;
+   width: 600px;
 
 }
 h1{
@@ -58,6 +59,7 @@ button{
     margin: auto;
     padding: auto;
 }
+
 
 
 
