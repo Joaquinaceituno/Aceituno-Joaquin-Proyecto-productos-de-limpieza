@@ -40,7 +40,7 @@ a {
 body{
     font-family: 'Times New Roman', Times, serif;
 
-    background-color: yellow;
+    background-image:url(../IMG/fondo-pagina.jpeg);
 }
 nav{
     text-align: center;
