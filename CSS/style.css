@@ -2,12 +2,13 @@
 .Encabezado{
     display: flex;
     justify-content: space-around;
-    background-color: aquamarine;
+    background-color:aqua;
     align-items:center ;
     padding: 10px;
     text-align: center;
 }
 .buscador{
+    background-color: aquamarine;
     display: flex;
    justify-content: space-around;
    width: 600px;
@@ -32,6 +33,7 @@ a {
   
  }
 .barralateral{
+    background-color: aquamarine;
     text-align: center; 
     margin-top: auto;
    
@@ -58,6 +60,9 @@ input{
 button{
     margin: auto;
     padding: auto;
+}
+footer{
+    background-color: aqua;
 }
 
 
