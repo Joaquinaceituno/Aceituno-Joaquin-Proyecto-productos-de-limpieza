@@ -1,7 +1,7 @@
 
 .Encabezado{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: aquamarine;
     align-items:center ;
     padding: 10px;
@@ -10,15 +10,13 @@
 .buscador{
     display: flex;
    justify-content: space-around;
+   width: 600px;
 
 }
 h1{
     margin-right: 50px; 
 }
-input{
-    display: grid;
-    margin-right: 50px;
-}
+
 a {
     text-decoration: none;
     padding-right: 10px;
@@ -35,6 +33,7 @@ a {
  }
 .barralateral{
     text-align: center; 
+    margin-top: auto;
    
 }
 body{
@@ -42,12 +41,6 @@ body{
 
     background-image:url(../IMG/fondo-pagina.jpeg);
 }
-nav{
-    text-align: center;
-    margin: auto;
-    padding: auto;
-}
-
 /*Aqui se tendra al formulario de la cuenta*/
 
 .form-registro{
@@ -66,6 +59,7 @@ button{
     margin: auto;
     padding: auto;
 }
+
 
 
 
