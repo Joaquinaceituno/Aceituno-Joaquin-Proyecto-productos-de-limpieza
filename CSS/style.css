@@ -1,7 +1,4 @@
-html{
-    margin: 0px;
-    padding: 0px;
-}
+
 .Encabezado{
     display: flex;
     justify-content: space-between;
@@ -10,12 +7,17 @@ html{
     padding: 10px;
     text-align: center;
 }
+.buscador{
+    display: flex;
+   justify-content: space-around;
+
+}
 h1{
     margin-right: 50px; 
 }
 input{
+    display: grid;
     margin-right: 50px;
- 
 }
 a {
     text-decoration: none;
@@ -33,7 +35,7 @@ a {
  }
 .barralateral{
     text-align: center; 
-
+   
 }
 body{
     font-family: 'Times New Roman', Times, serif;
@@ -50,7 +52,7 @@ nav{
 
 .form-registro{
     width: 400px;
-    background-color: rgb(38, 50, 216);
+    background-color: rgb(32, 41, 162);
     padding: 30px;
     margin:auto;
     border-radius: 25px;
