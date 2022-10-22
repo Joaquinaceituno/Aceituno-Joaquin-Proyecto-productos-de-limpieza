@@ -53,13 +53,19 @@
     <section class="form-registro">
         <h4>Registro de cuenta</h4>
         <!--Caja para poner tu nombre-->
-        <input class="control" type="text" name="nombres" id="nombres" placeholder="ingrese su nombre">
+        <form>
+        <!--Se agrega la etiqueta form-->
+        <label for="nombres">Nombre:</label><br>
+        <input class="control" type="text" name="nombres" id="nombres" placeholder="ingrese su nombre"><br>
         <!--Caja para poner tu apellido-->
-        <input class="control" type="text" name="apellidos" id="apellidos" placeholder="ingrese su apellido">
+        <label for="apellidos">Apellido:</label><br>
+        <input class="control" type="text" name="apellidos" id="apellidos" placeholder="ingrese su apellido"><br>
         <!--Caja para ingresar tu correo electronico-->
-        <input class="conteol" type="email" name="correo" id="correo" placeholder="ingrese su correo">
+        <label for="correo">Correo electronico:</label><br>
+        <input class="conteol" type="email" name="correo" id="correo" placeholder="ingrese su correo"><br>
         <!--Caja para ingresar tu contraseña-->
-        <input class="control" type="password" name="contraseña" id="correo" placeholder="ingrese su contraseña">
+        <label for="contraseña">Ingrese una contraseña:</label><br>
+        <input class="control" type="password" name="contraseña" id="contraseña" placeholder="ingrese una contraseña">
         <!--Texto que te dejara indicar si estas de acurdo con los terminos de uso de la pagina-->
         <h4>Estoy de acuerdo con <a href="#">terminos y condiciones</a></h4>
         <!--Boton que te permite registrarte-->
@@ -67,7 +73,10 @@
         <!--Boton que te permite borrar los datos-->
         <input type="reset" value="borrar datos">
         <!--Texto que te preguntara si ya tenias una cuenta hecha y acceder a ella-->
+        </form>
+        <!--se cierra le etiqueta form-->
         <h4><a href="#">¿Ya tienes una cuenta?</a></h4>
+
     </section>
     <div class="piedpagina">
         <!--Se agrega un pie de pagina con un numero de telefono, licencia y logo-->
