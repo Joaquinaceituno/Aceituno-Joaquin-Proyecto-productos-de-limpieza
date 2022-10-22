@@ -7,6 +7,11 @@
     padding: 10px;
     text-align: center;
 }
+
+.Encabezado :hover{
+    color: yellowgreen;
+}
+
 .buscador{
     display: flex;
    justify-content: space-around;
