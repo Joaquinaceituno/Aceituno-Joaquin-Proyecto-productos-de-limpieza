@@ -9,11 +9,12 @@
 
 }
 
+
 .elementos :hover{
     color: yellowgreen;
 }
 
-.buscador{
+input .buscador{
    
     display: flex;
    justify-content: space-around;
