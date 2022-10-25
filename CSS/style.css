@@ -6,6 +6,7 @@
     align-items:center ;
     padding: 10px;
     text-align: center;
+
 }
 
 .elementos :hover{
@@ -13,10 +14,10 @@
 }
 
 .buscador{
-    background-color: aquamarine;
+   
     display: flex;
    justify-content: space-around;
-   width: 600px;
+   width: 700px;
 
 }
 h1{
@@ -40,7 +41,7 @@ a {
 .barralateral{
     background-color: aquamarine;
     text-align: center; 
-    margin-top: auto;
+    margin: 0px 0px;
    
 }
 body{
@@ -69,6 +70,7 @@ button{
 }
 footer{
     background-color: aqua;
+    margin: 300px 0px;
 }
 
 
