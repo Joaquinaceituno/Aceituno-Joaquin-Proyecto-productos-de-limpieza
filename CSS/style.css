@@ -105,7 +105,13 @@ footer{
 .inicio-sesion input{
     border-radius: 50px;
 }
-
+.oferta{
+    background-color: aqua;
+   
+}
+.contenido h2{
+text-align: center;
+}
 /*Aqui finaliza*/
 
 
