@@ -2,7 +2,7 @@
 *{
     margin: 0%;
     padding: 0%;
-    
+
 }
 .Encabezado{
     display: flex;
@@ -14,7 +14,9 @@
     height: 150px;
 
 }
-
+.contenido{
+    min-height: calc(100vh - 150px - 200px);
+}
 
 .elementos :hover{
     color: yellowgreen;
