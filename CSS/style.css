@@ -110,6 +110,7 @@ footer{
     margin: 25px;
     width: 200px;
     text-align: center;
+    border: 3px solid black;
    
 }
 .contenido h2{
