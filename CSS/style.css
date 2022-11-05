@@ -111,7 +111,8 @@ footer{
     width: 200px;
     text-align: center;
     border: 3px solid black;
-    display: grid;
+   display: grid;
+    
    
 }
 .contenido h2{
