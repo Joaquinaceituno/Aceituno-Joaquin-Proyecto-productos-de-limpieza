@@ -119,6 +119,7 @@ footer{
 .contenido h2{
     text-align: center;
     margin-bottom: 30px;
+    background-color:aquamarine;
 }
 .contenido{
     display: grid;
