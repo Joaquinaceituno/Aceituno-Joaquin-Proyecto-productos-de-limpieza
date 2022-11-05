@@ -107,7 +107,7 @@ footer{
 }
 .oferta{
     background-color: aqua;
-    margin: 25px;
+    margin: 150px;
     width: 200px;
     text-align: center;
     border: 3px solid black;
@@ -121,7 +121,7 @@ footer{
 }
 .contenido{
     display: grid;
-    grid-template-columns: 50% 50% ;
+
     
 }
 /*Aqui finaliza*/
