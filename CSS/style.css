@@ -107,8 +107,8 @@ footer{
 }
 .oferta{
     background-color: aqua;
-    margin: 150px;
-    width: 200px;
+    margin-left: 500px;
+    max-width: 850px;
     text-align: center;
     border: 3px solid black;
   
@@ -118,6 +118,7 @@ footer{
 }
 .contenido h2{
     text-align: center;
+    margin-bottom: 30px;
 }
 .contenido{
     display: grid;
