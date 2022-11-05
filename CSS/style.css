@@ -88,6 +88,8 @@ footer{
     background-color: aqua;
     margin:  0px;
     height: 200px;
+    border-top: 2px solid black;
+    margin-top: 15px;
 
 }
 
@@ -111,6 +113,7 @@ footer{
     max-width: 850px;
     text-align: center;
     border: 3px solid black;
+    margin-top: 20px;
   
   
     
