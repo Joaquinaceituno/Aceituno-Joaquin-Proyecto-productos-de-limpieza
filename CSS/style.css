@@ -127,9 +127,10 @@ footer{
     background-color:aquamarine;
 }
 .contenido{
-    display: grid;
-
-    
+    display: grid; 
+}
+.oferta img{
+    width: 100px;
 }
 /*Aqui finaliza*/
 
