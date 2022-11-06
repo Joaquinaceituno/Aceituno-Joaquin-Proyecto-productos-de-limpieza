@@ -116,9 +116,9 @@ footer{
     margin-top: 20px;
     display: grid;
     grid-template-columns: 45% 15% 15% 15%;
-    line-height: 160px; 
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 .material{
     background-color: aqua;
