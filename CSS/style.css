@@ -127,6 +127,9 @@ footer{
     margin-top: 20px;
     line-height: 50px;
 }
+.liquidos{
+    background-color: aqua;
+}
 .contenido h2{
     text-align: center;
     margin-bottom: 30px;
