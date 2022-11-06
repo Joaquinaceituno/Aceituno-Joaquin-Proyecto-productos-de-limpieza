@@ -116,7 +116,7 @@ footer{
     margin-top: 20px;
     display: grid;
     grid-template-columns: 45% 15% 15% 15%;
-    line-height: 150px; 
+    line-height: 160px; 
 }
 .material{
     background-color: aqua;
@@ -127,6 +127,7 @@ footer{
     margin-top: 20px;
     display: grid;
     grid-template-columns:45% 15% 15% 15%;
+    line-height: 160px;
 }
 .contenido h2{
     text-align: center;
