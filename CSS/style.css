@@ -130,6 +130,7 @@ footer{
 .liquidos{
     background-color: aqua;
     margin-left: 500px;
+    max-width: 850px;
 }
 .contenido h2{
     text-align: center;
