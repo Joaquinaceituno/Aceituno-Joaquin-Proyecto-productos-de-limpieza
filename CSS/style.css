@@ -132,6 +132,7 @@ footer{
     margin-left: 500px;
     max-width: 850px;
     text-align: center;
+    border: 3px solid black;
 }
 .contenido h2{
     text-align: center;
