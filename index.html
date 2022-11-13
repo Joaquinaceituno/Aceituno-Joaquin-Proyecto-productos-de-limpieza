@@ -10,6 +10,7 @@
     <!--Se agrega un titulo-->
     <title>Productos de limpieza los rodriguez</title>
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="icon" href="IMG/imagen del logo.jpg" type="imagen/x-icon">
 </head>
 <!--Se define el cuerpo del programa-->
 <body>
@@ -18,14 +19,15 @@
   <!--se crea una caja para el encabezado-->
   <div class="Encabezado">
     <!--Se agrega un logo-->
- <img width="100px" src="IMG/imagen del logo.jpg">
+ <a href="index.html"><img width="100px" src="IMG/imagen del logo.jpg"></a>
  <!--Se agrega un Encabezado para la pagina-->
   <header><h1>Productos de limpieza los Rodriguez</h1></header>
   <!--Se agrega un menu de busqueda-->
-   <nav>Menu</nav><input placeholder="barra de busqueda">
+  <div class="buscador">
+  <input class="busqueda" size="60" placeholder="barra de busqueda">
+  </div>
 <br>
  <!--Se crea el titulo de perfil para agregar el carrito de compras, la cuenta y los favoritos-->
-<h2>Perfil</h2>
 <!--se crea una caja para los elementos que necesita el usuario para navegar por la pagina-->
 <div class="elementos">
 
@@ -39,30 +41,72 @@
   <li><a href="Cuenta.html">Cuenta</a></li>
  </ul>
   </div>
-  </div>
  <br>
+  </div>
+ <div class="barralateral">
  <!--caja de la barra lateral-->
- <div class="BarraLateral">
-<aside>
- <!--Se agrega la barra de opciones en la que se agregan las listas de materiales, liquidos, historial, ofertas y ayuda-->
- <h2>Opciones</h2> 
- <!--se crea una lista desordenada-->
-  <ul>
-    <!--link de la pagina de los materiales-->
-   <li><a href="Materiales.html">Materiales</a></li>
-   <!--link de la pagina de los liquidos-->
-   <li><a href="liquidos.html">liquidos</a></li>
-   <!--link de la pagina de las ofertas-->
-   <li><a href="ofertas.html">ofertas</a></li>
-   <!--link de la pagina de historial-->
-   <li><a href="Historial.html">Historial</a></li>
-   <!--link de la pagina de ayuda-->
-   <li><a href="Ayuda.html">Ayuda</a></li>
-  </ul>
-</aside>
- </div>
-<br>
+ 
+ <!--se crea una lista nav-->
+  <nav>
+    <a href="favoritos.html">Favoritos</a>
+    /
+    <a href="Historial.html">Historial</a>
+    /
+    <a href="liquidos.html">liquidos</a>
+    /
+    <a href="Materiales.html">Materiales</a>
+    /
+    <a href="ofertas.html">ofertas</a>
+    
 
+  </nav>
+</div>
+<br>
+  <div class="contenido">
+<ul class="slider">
+   <li>
+      <input type="radio" id="button1" name="radio">
+      <label for="button1"></label>
+      <img src="IMG/alcohol etilico.jpg" alt="">
+   </li>
+      <input type="radio" id="button2" name="radio">
+      <label for="button2"></label>
+      <img src="IMG/baldes.jpg" alt="">
+   <li>
+      <input type="radio" id="button3" name="radio">
+      <label for="button3"></label>    
+      <img src="IMG/rollo de cocina x3.jpg" alt="">
+   </li>
+
+   <li>
+    <input type="radio" id="button4" name="radio">
+    <label for="button4"></label>
+    <img src="IMG/escoba.jpg" alt="">
+   </li>
+
+   <li>
+    <input type="radio" id="button5" name="radio">
+    <label for="button5"></label>
+    <img src="IMG/guantes de latex.jpg" alt="">
+   </li>
+
+   <li>
+    <input type="radio" id="button6" name="radio">
+    <label for="button6"></label>
+    <img src="IMG/liquido lampazo.jpg" alt="">
+   </li>
+
+</ul>
+  </div>
+
+
+
+
+
+
+
+<br>
+<div class="piedepagina">
 <!--Se agrega un pie de pagina con un numero de telefono, licencia y logo-->
 <div class="PieDPagina">
 <footer>
@@ -73,6 +117,7 @@
   <!--logo de la empresa-->
   <img width="100px" src="IMG/imagen del logo.jpg">
 </footer>
+</div>
 </div>
 </div>
 </body>

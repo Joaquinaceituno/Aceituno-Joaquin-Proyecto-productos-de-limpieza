@@ -8,19 +8,23 @@
     <!--Se agrega un titulo-->
     <title>Liquidos-Productos de limpieza los Rodriguez</title>
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="icon" href="IMG/imagen del logo.jpg" type="imagen/x-icon">
 </head>
 <body>
 <div class="Contenedor">
   <div class="Encabezado">
   <!--Se agrega un logo-->
-  <img width="100px" src="IMG/imagen del logo.jpg">
+  <a href="index.html"><img width="100px" src="IMG/imagen del logo.jpg"></a>
   <!--Se agrega un Encabezado para la pagina-->
    <header><h1>Productos de limpieza los Rodriguez</h1></header>
    <!--Se agrega un menu de busqueda-->
-    <nav>Menu</nav><input placeholder="barra de busqueda">
-<br>
-<!--Se crea el titulo de perfil para agregar el carrito de compras, la cuenta y los favoritos-->
-<h2>Perfil</h2>
+   <div class="buscador">
+    <input class="busqueda" size="60" placeholder="barra de busqueda">
+    </div>
+  <br>
+   <!--Se crea el titulo de perfil para agregar el carrito de compras, la cuenta y los favoritos-->
+  <!--se crea una caja para los elementos que necesita el usuario para navegar por la pagina-->
+
 <div class="elementos">
  <ul>
   <li><a href="Carro.html">Carrito</a></li>
@@ -29,57 +33,84 @@
  </ul>
 </div>
   </div>
- <br>
- <div class="BarraLateral">
-    <!--Se agrega la barra de opciones en la que se agregan las listas de materiales, inicio, historial, ofertas y ayuda-->
- <h2>Opciones</h2> 
- <ul>
-  <li><a href="Materiales.html">Materiales</a></li>
-  <li><a href="index.html">Inicio</a></li>
-  <li><a href="ofertas.html">ofertas</a></li>
-  <li><a href="Historial.html">Historial</a></li>
-  <li><a href="Ayuda.html">Ayuda</a></li>
- </ul>
-</div>
+ 
+ <div class="barralateral">
+  <!--caja de la barra lateral-->
+  
+  <!--se crea una lista nav-->
+   <nav>
+     <a href="favoritos.html">Favoritos</a>
+     /
+     <a href="Historial.html">Historial</a>
+     /
+     <a href="liquidos.html">liquidos</a>
+     /
+     <a href="Materiales.html">Materiales</a>
+     /
+     <a href="ofertas.html">ofertas</a>
+     
+ 
+   </nav>
+ </div>
 <br>
-<div id="Liquidos">
+<div class="contenido">
 <!--Se agrega un titulo que muestra los liquidos disponibles-->
 <h2>Liquidos es stock</h2>
  <ul>
   <div class="liquidos">
+    <!--Desodorante de piso con foto-->
+    <li>DESODORANTE DE PISO (VARIOS)</li>
+    <a href="desodorantepiso.html"><img width="70px" src="IMG/desodorante de piso.jpg"></a>
+    </div>
+    <div class="liquidos">
+    <!--Desodorante pinolux con foto-->
+    <li>DESODORANTE PINOLUX</li>
+    <a href="desodorantepinolux.html"><img width="70px" src="IMG/desodorante pinolux.jpg"></a>
+    </div>
+    <div class="liquidos">
+    <!--Jabon ariel premium con foto-->
+    <li>JABON ARIEL PREMIUM</li>
+    <a href="jabonariel.html"><img width="70px" src="IMG/jabon ariel.jpg"></a>
+    </div>
+    <div class="liquidos">
+    <!--Jabon de manos con foto-->
+    <li>JABON DE MANOS</li>
+    <a href="jabonmanos.html"><img width="70px" src="IMG/jabon de manos.jpg"></a>
+    </div>
+  <div class="liquidos">
     <!--Lavandina con foto-->
   <li><b>LAVANDINA</b></li>
-  <img width="70px" src="IMG/lavandina.jpg">
+  <a href="lavandina.html"><img width="70px" src="IMG/lavandina.jpg"></a>
   </div>
   <div class="liquidos">
   <!--Detergente magistral con foto-->
   <li><b>DETERGENTE MAGISTRAL</b></li>
-  <img width="70px" src="IMG/detergente magistral.jpg">
+  <a href="detergentemagistral.html"><img width="70px" src="IMG/detergente magistral.jpg"></a>
   </div>
   <div class="liquidos">
   <!--Suavizante con foto-->
   <li><b>SUAVIZANTE</b></li>
-  <img width="70px" src="IMG/suavizante.jpg">
+  <a href="suavizante.html"><img width="70px" src="IMG/suavizante.jpg"></a>
   </div>
   <div class="liquidos">
   <!--Liaquido lampazo con foto-->
   <li><b>LIQUIDO LAMPAZO</b></li>
-  <img width="70px" src="IMG/liquido lampazo.jpg">
+  <a href="liquidolampazo.html"><img width="70px" src="IMG/liquido lampazo.jpg"></a>
   </div>
   <div class="liquidos">
   <!--Alcohol en gel con foto-->
   <li><b>ALCOHOL EN GEL</b></li>
-  <img width="70px" src="IMG/alcohol en gel.jpg">
+  <a href="alcoholengel.html"><img width="70px" src="IMG/alcohol en gel.jpg"></a>
   </div>
   <div class="liquidos">
   <!--Alcohol etilico con foto-->
   <li><b>ALCOHOL ETILICO</b></li>
-  <img width="70px" src="IMG/alcohol etilico.jpg">
+  <a href="alcoholetilico.html"><img width="70px" src="IMG/alcohol etilico.jpg"></a>
   </div>
  </ul> 
 </div>
 <br>
-<div class="PieDPagina">
+<div class="piedpagina">
 <!--Se agrega un pie de pagina con un numero de telefono, licencia y logo-->
 <footer>
   <!--Se agrega un numero de contacto-->

@@ -8,66 +8,82 @@
     <!--Se agrega un titulo-->
     <title>Cuenta-Productos de liempieza los Rodriguez</title>
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="icon" href="IMG/imagen del logo.jpg" type="imagen/x-icon">
 </head>
 <body>
     <div class="Contenedor">
         <div class="Encabezado">
           <!--Se agrega un logo-->
-       <img width="100px" src="IMG/imagen del logo.jpg">
+          <a href="index.html"><img width="100px" src="IMG/imagen del logo.jpg"></a>
        <!--Se agrega un Encabezado para la pagina-->
         <header><h1>Productos de limpieza los Rodriguez</h1></header>
         <!--Se agrega un menu de busqueda-->
-         <nav>Menu</nav><input placeholder="barra de busqueda">
-         <!--Se crea el titulo de perfil para agregar el carrito de compras, el inicio y los favoritos-->
-         <h2>Perfil</h2>
+        <div class="buscador">
+          <input class="busqueda" size="60" placeholder="barra de busqueda">
+          </div>
+        <br>
+         <!--Se crea el titulo de perfil para agregar el carrito de compras, la cuenta y los favoritos-->
+        <!--se crea una caja para los elementos que necesita el usuario para navegar por la pagina-->
+
          <div class="elementos">
           <ul>
             <li><a href="Carro.html">Carrito</a></li>
             <li><a href="Favoritos.html">Favoritos</a></li>
-            <li><a href="index.html">Inicio</a></li>
+          
          </ul>
          </div>
-         <div class="BarraLateral">
-          <aside>
-          <!--Se agrega la barra de opciones en la que se agregan las listas de materiales, liquidos, historial, ofertas y ayuda-->
-          <h2>Opciones</h2>
-          <!--se crea una lista desordenada-->
-          <ul>
-              <!--link de la pagina de los materiales-->
-              <li><a href="Materiales.html">Materiales</a></li>
-              <!--link de la pagina de los liquidos-->
-              <li><a href="liquidos.html">liquidos</a></li>
-              <!--link de la pagina de las ofertas-->
-              <li><a href="ofertas.html">ofertas</a></li>
-              <!--link de la pagina de historial-->
-              <li><a href="Historial.html">Historial</a></li>
-              <!--link de la pagina de ayuda-->
-              <li><a href="Ayuda.html">Ayuda</a></li>
-          </ul>
-          </aside>
-          </div>
         </div>
+         <div class="barralateral">
+          <!--caja de la barra lateral-->
+        
+          <!--se crea una lista nav-->
+           <nav>
+             <a href="favoritos.html">Favoritos</a>
+             /
+             <a href="Historial.html">Historial</a>
+             /
+             <a href="liquidos.html">liquidos</a>
+             /
+             <a href="Materiales.html">Materiales</a>
+             /
+             <a href="ofertas.html">ofertas</a>
+             
+         
+           </nav>
+         </div>
       <br>
       
-       <br>
+      <div class="contenido">
     <!--Se define la caja para el formulario de registro-->
     <section class="form-registro">
+        <h4>Registro de cuenta</h4>
         <!--Caja para poner tu nombre-->
-        <input type="text" name="nombres" id="nombres" placeholder="ingrese su nombre">
+        <form>
+        <!--Se agrega la etiqueta form-->
+        <label for="nombres">Nombre:</label><br>
+        <input class="control" type="text" name="nombres" id="nombres" placeholder="ingrese su nombre"><br>
         <!--Caja para poner tu apellido-->
-        <input type="text" name="apellidos" id="apellidos" placeholder="ingrese su apellido">
+        <label for="apellidos">Apellido:</label><br>
+        <input class="control" type="text" name="apellidos" id="apellidos" placeholder="ingrese su apellido"><br>
         <!--Caja para ingresar tu correo electronico-->
-        <input type="email" name="correo" id="correo" placeholder="ingrese su correo">
+        <label for="correo">Correo electronico:</label><br>
+        <input class="correo" type="email" name="correo" id="correo" placeholder="ingrese su correo"><br>
         <!--Caja para ingresar tu contraseña-->
-        <input type="password" name="contraseña" id="correo" placeholder="ingrese su contraseña">
+        <label for="contraseña">Ingrese una contraseña:</label><br>
+        <input class="control" type="password" name="contraseña" id="contraseña" placeholder="ingrese una contraseña">
         <!--Texto que te dejara indicar si estas de acurdo con los terminos de uso de la pagina-->
-        <p>Estoy de acuerdo con <a href="#">terminos y condiciones</a></p>
-        <!--Boton que te premite registrarte-->
-        <input type="submit" value="regristrar">
+        <h4>Estoy de acuerdo con <a href="#">terminos y condiciones</a></h4>
+        <!--Boton que te permite registrarte-->
+        <input class="botons" type="submit" value="regristrar">
+        <!--Boton que te permite borrar los datos-->
+        <input type="reset" value="borrar datos">
         <!--Texto que te preguntara si ya tenias una cuenta hecha y acceder a ella-->
-        <p><a href="#">¿Ya tienes una cuenta?</a></p>
+        </form>
+        <!--se cierra le etiqueta form-->
+        <h4><a href="cuenta2.html">¿Ya tienes una cuenta?</a></h4>
     </section>
-    <div class="PieDPagina">
+      </div>
+    <div class="piedpagina">
         <!--Se agrega un pie de pagina con un numero de telefono, licencia y logo-->
         <footer>
           <!--Se agrega un numero de contacto-->
@@ -77,6 +93,6 @@
           <img width="100px" src="IMG/imagen del logo.jpg">
         </footer>
         </div>
-    </div>
+    
 </body>
 </html>

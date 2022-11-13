@@ -8,6 +8,7 @@
     <!--Se agrega un titulo-->
     <title>Historial-Productos de limpieza los Rodriguez</title>
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="icon" href="IMG/imagen del logo.jpg" type="imagen/x-icon">
 </head>
 <body>
     <!--Se crea una caja llamada contenedor-->
@@ -15,14 +16,17 @@
     <!--Se crea una caja llamada encabezado-->
     <div class="Encabezado">
      <!--Se agrega un logo-->
- <img width="100px" src="IMG/imagen del logo.jpg">
+     <a href="index.html"><img width="100px" src="IMG/imagen del logo.jpg"></a>
  <!--Se agrega un Encabezado para la pagina-->
   <header><h1>Productos de limpieza los Rodriguez</h1></header>
   <!--Se agrega un menu de busqueda-->
-   <nav>Menu</nav><input placeholder="barra de busqueda">
-<br>
-<!--Se crea el titulo de perfil para agregar el carrito de compras, la cuenta y los favoritos-->
-<h2>Perfil</h2>
+  <div class="buscador">
+    <input class="busqueda" size="60" placeholder="barra de busqueda">
+    </div>
+  <br>
+   <!--Se crea el titulo de perfil para agregar el carrito de compras, la cuenta y los favoritos-->
+  <!--se crea una caja para los elementos que necesita el usuario para navegar por la pagina-->
+
 <div class="elementos">
  <ul>
     <!--Se crea el enlace para el carro-->
@@ -34,31 +38,32 @@
  </ul>
 </div>
     </div>
- <br>
- <div class="BarraLateral">
-<!--Se agrega la barra de opciones en la que se agregan las listas de materiales, liquidos, inicio, ofertas y ayuda-->
-<h2>Opciones</h2> 
-<ul>
-   <!--Se crea un enlace para materiales-->
- <li><a href="Materiales.html">Materiales</a></li>
-   <!--Se crea un enlace para liquidos-->
- <li><a href="liquidos.html">liquidos</a></li>
-   <!--Se crea un enlace para ofertas-->
- <li><a href="ofertas.html">ofertas</a></li>
-   <!--Se crea un enlace para index-->
- <li><a href="index.html">Inicio</a></li>
-   <!--Se crea un enlace para ayuda-->
- <li><a href="Ayuda.html">Ayuda</a></li>
-</ul>
-
-</div>
+ 
+ <div class="barralateral">
+    <!--caja de la barra lateral-->
+    
+    <!--se crea una lista nav-->
+     <nav>
+       <a href="favoritos.html">Favoritos</a>
+       /
+       <a href="Historial.html">Historial</a>
+       /
+       <a href="liquidos.html">liquidos</a>
+       /
+       <a href="Materiales.html">Materiales</a>
+       /
+       <a href="ofertas.html">ofertas</a>
+       
+   
+     </nav>
+   </div>
 <br>
-<div id="historial">
+<div class="contenido">
     <!--Se agrega titulo al historial-->
     <h2>Historial de articulos visitados</h2>
 </div>
 <br>
-<div class="PieDPagina">
+<div class="piedpagina">
  <!--Se agrega un pie de pagina con un numero de telefono, licencia y logo-->
  <footer>
   <!--Se agrega un numero de contacto-->

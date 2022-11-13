@@ -8,19 +8,23 @@
     <!--Se agrega un titulo-->
     <title>Ofertas-Productos de limpieza los Rodriguez</title>
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="icon" href="IMG/imagen del logo.jpg" type="imagen/x-icon">
 </head>
 <body>
 <div class="Contenedor">
   <div class="Encabezado">
 <!--Se agrega un logo-->
-<img width="100px" src="IMG/imagen del logo.jpg">
+<a href="index.html"><img width="100px" src="IMG/imagen del logo.jpg"></a>
 <!--Se agrega un Encabezado para la pagina-->
  <header><h1>Productos de limpieza los Rodriguez</h1></header>
  <!--Se agrega un menu de busqueda-->
-  <nav>Menu</nav><input placeholder="barra de busqueda">
+ <div class="buscador">
+  <input class="busqueda" size="60" placeholder="barra de busqueda">
+  </div>
 <br>
-<!--Se crea el titulo de perfil para agregar el carrito de compras, la cuenta y los favoritos-->
-<h2>Perfil</h2>
+ <!--Se crea el titulo de perfil para agregar el carrito de compras, la cuenta y los favoritos-->
+<!--se crea una caja para los elementos que necesita el usuario para navegar por la pagina-->
+
 <div class="elementos">
  <ul>
   <li><a href="Carro.html">Carrito</a></li>
@@ -29,115 +33,121 @@
  </ul>
   </div>
   </div>
- <br>
-<div class="BarraLateral">
-<!--Se agrega la barra de opciones en la que se agregan las listas de materiales, liquidos, historial, inicio y ayuda-->
-<h2>Opciones</h2> 
-<ul>
- <li><a href="Materiales.html">Materiales</a></li>
- <li><a href="liquidos.html">liquidos</a></li>
- <li><a href="index.html">Inicio</a></li>
- <li><a href="Historial.html">Historial</a></li>
- <li><a href="Ayuda.html">Ayuda</a></li>
-</ul>
-</div>
+ 
+ <div class="barralateral">
+  <!--caja de la barra lateral-->
+  
+  <!--se crea una lista nav-->
+   <nav>
+     <a href="favoritos.html">Favoritos</a>
+     /
+     <a href="Historial.html">Historial</a>
+     /
+     <a href="liquidos.html">liquidos</a>
+     /
+     <a href="Materiales.html">Materiales</a>
+     /
+     <a href="ofertas.html">ofertas</a>
+     hola
+     
+ 
+   </nav>
+ </div>
 <br>
-<div id="Ofertas">
+<div class="contenido">
 <!--Se agrega  el titulo de las ofertas disponibles-->
  <h2>OFERTAS</h2>
-  <ul>
     <div class="oferta">
     <!--Ofertas de lavandina-->
     <li><b>LAVANDINA</b></li>
-    <img width="70px" src="IMG/lavandina.jpg">
-     <ul>
+    <a href="ofertaslavandina.html"><img width="70px" src="IMG/lavandina.jpg"></a>
+     
       <li>5 litros x $400</li>
       <li>1 litro x $280</li>
-     </ul>
+     
     </div>
     <div class="oferta">
      <!--Ofertas de detergente magistral-->
     <li><b>DETERGENTE MAGISTRAL:</b></li>
-    <img width="70px" src="IMG/detergente magistral.jpg">
-     <ul>
+    <a href="ofertasdetergentemagistral.html"><img width="70px" src="IMG/detergente magistral.jpg"></a>
+     
       <li>5 litros x $700</li>
       <li>1 litro x $250</li>
-     </ul>
+     
     </div>
     <div class="oferta">
      <!--Ofertas de desodorante de piso-->
     <li><b>DESODORANTE DE PISO</b></li>
-    <img width="70px" src="IMG/desodorante de piso.jpg">
-     <ul>
+    <a href="ofertasdesodorantepiso.html"><img width="70px" src="IMG/desodorante de piso.jpg"></a>
+    
       <li>5 litros x $340</li>
       <li>1 litro x $130</li>
-     </ul>
+     
     </div>
     <div class="oferta">
      <!--Ofertas de desodorante pinolux-->
     <li><b>DESODORANTE PINOLUX</b></li>
-    <img width="70px" src="IMG/desodorante pinolux.jpg">
-     <ul>
+    <a href="ofertasdesodorantepinolux.html"><img width="70px" src="IMG/desodorante pinolux.jpg"></a>
+   
       <li>5 litros x $380</li>
       <li>1 litro x $150</li>
-     </ul>
+    
     </div>
     <div class="oferta">
      <!--Ofertas de jabon ariel premium-->
     <li><b>JABON ARIEL PREMIUM</b></li>
-    <img width="70px" src="IMG/jabon ariel.jpg">
-     <ul>
+    <a href="ofertasjabonariel.html"><img width="70px" src="IMG/jabon ariel.jpg"></a>
+    
       <li>5 litros x $600</li>
       <li>1 litro x $200</li>
-     </ul>
+   
     </div>
     <div class="oferta">
      <!--Ofertas de usavizante-->
     <li><b>SUAVIZANTE</b></li>
-    <img width="70px" src="IMG/suavizante.jpg">
-     <ul>
+    <a href="ofertassuavizante.html"><img width="70px" src="IMG/suavizante.jpg"></a>
+    
       <li>5 litros x $500</li>
       <li>1 litro x $200</li>
-     </ul>
+    
     </div>
     <div class="oferta">
      <!--Ofertas de liquido lampazo-->
     <li><b>LIQUIDO LAMPAZO</b></li>
-    <img width="70px" src="IMG/liquido lampazo.jpg">
-     <ul>
+    <a href="ofertaliquidolampazo.html"><img width="70px" src="IMG/liquido lampazo.jpg"></a>
+   
       <li>5 litros x $2500</li>
       <li>1 litro x $500</li>
-     </ul>
+    
     </div>
     <div class="oferta">
      <!--Ofertas de alcohol en gel-->
     <li><b>ALCOHOL EN GEL</b></li>
-    <img width="70px" src="IMG/alcohol en gel.jpg">
-     <ul>
+    <a href="ofertaalcoholengel.html"><img width="70px" src="IMG/alcohol en gel.jpg"></a>
+    
       <li>1 litro x $530</li>
-     </ul>
+    
     </div>
     <div class="oferta">
      <!--Ofertas de alcohol etilico-->
     <li><b>ALCOHOL ETILICO</b></li>
-    <img width="70px" src="IMG/alcohol etilico.jpg">
-     <ul>
+    <a href="ofertaalcoholetilico.html"><img width="70px" src="IMG/alcohol etilico.jpg"></a>
+    
       <li>1 litro x $530</li>
-     </ul>
+     
     </div>
     <div class="oferta">
      <!--Ofertas de jabon de manos-->
     <li><b>JABON DE MANOS</b></li>
-    <img width="70px" src="IMG/jabon de manos.jpg">
-     <ul>
+    <a href="ofertajabonmanos.html"><img width="70px" src="IMG/jabon de manos.jpg"></a>
+     
       <li>5 litros x $660</li>
       <li>1 litro x $220</li>
-     </ul>
-    </div>
-  </ul>
+     
     </div>
   
-  <div class="PieDPagina">
+</div>
+  <div class="piedpagina">
   <!--Se agrega un pie de pagina con un numero de telefono, licencia y logo-->
 <footer>
   <!--Se agrega un numero de contacto-->
