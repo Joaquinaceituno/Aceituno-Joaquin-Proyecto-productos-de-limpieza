@@ -140,11 +140,13 @@ footer{
 }
 .contenido h2{
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     background-color:aquamarine;
     margin-left: 700px;
     margin-right: 760px;
     font-size: 40px;
+    line-height: 110px;
+   
 }
 .contenido{
     display: grid; 
