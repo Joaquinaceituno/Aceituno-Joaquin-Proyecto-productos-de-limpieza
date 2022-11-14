@@ -163,6 +163,8 @@ footer{
 .comprar{
 
     background-color: aquamarine;
+    display: flex;
+    justify-content: center;
 }
 /*Aqui finaliza*/
 
