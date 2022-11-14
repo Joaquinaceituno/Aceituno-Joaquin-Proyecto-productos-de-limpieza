@@ -165,6 +165,8 @@ footer{
     background-color: aquamarine;
     display: flex;
     justify-content: center;
+    margin-left: 900px;
+    margin-right: 900px;
 }
 /*Aqui finaliza*/
 
