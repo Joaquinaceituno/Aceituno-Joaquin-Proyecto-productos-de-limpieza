@@ -155,6 +155,11 @@ footer{
 .liquidos img{
     width: 300px;
 }
+.imgtotal img{
+  width: 400px;
+  margin-left: 730px;
+  border: 2px solid black;
+}
 /*Aqui finaliza*/
 
 
